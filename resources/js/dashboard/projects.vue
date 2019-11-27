@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="container">
-                            <div class="title pb-5">
+                            <div>
                                 <h1>Dashboard <span>Home</span> <span>|</span> <span>Project</span></h1>
                             </div>
                             <div class="section-content">
@@ -218,28 +218,28 @@
                                                                 <td>Nick Stone</td>
                                                                 <td>NikyBlack87@gmail.com</td>
                                                                 <td>21,562</td>
-                                                                <td><span class="grow-up">&nbsp;&nbsp; 46,53%</td>
+                                                                <td><span class="grow-up">&nbsp;&nbsp; 46,53%</span></td>
                                                             </tr>
                                                             <tr>
                                                                 <td>2</td>
                                                                 <td>Milano Esco</td>
                                                                 <td>Milanoesco56@gmal.com</td>
                                                                 <td>2,062</td>
-                                                                <td><span class="grow-up">&nbsp;&nbsp; 34,13%</td>
+                                                                <td><span class="grow-up">&nbsp;&nbsp; 34,13%</span></td>
                                                             </tr>
                                                             <tr>
                                                                 <td>3</td>
                                                                 <td>Wiltor Noice</td>
                                                                 <td>Wiltornoice34@gmail.com</td>
                                                                 <td>9,562</td>
-                                                                <td><span class="grow-up">&nbsp;&nbsp; 39,83%</td>
+                                                                <td><span class="grow-up">&nbsp;&nbsp; 39,83%</span></td>
                                                             </tr>
                                                             <tr>
                                                                 <td>4</td>
                                                                 <td>Anna Strong</td>
                                                                 <td>Annastrong67@gmail.com</td>
                                                                 <td>1002</td>
-                                                                <td><span class="grow-up">&nbsp;&nbsp; 24,73%</td>
+                                                                <td><span class="grow-up">&nbsp;&nbsp; 24,73%</span></td>
                                                             </tr>
                                                         </tbody>
                                                     </table>
@@ -251,5 +251,5 @@
                             </div>
                         </div>
                     </div>
-    </div>
+   
 </template>

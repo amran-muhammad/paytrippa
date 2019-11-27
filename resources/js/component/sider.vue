@@ -40,52 +40,89 @@
                 <li>
                     <a class="self-collapsable"><span class="menu-icon"><i class="fas fa-cog"></i></span>Widgets<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
                     <ul class="self-collapse">
-                        <li><a href="widgets.html"><span class="name">Widgets</span> </a></li>
-                        <li><a href="map.html"><span class="name">Map</span> </a></li>
+                        <li>
+                            <router-link to="/widgets">
+                            <span class="name">Widgets</span>
+                           </router-link>
+
+                        </li>
+                        <li>
+                            <router-link to="/maps">
+                            <span class="name">Maps</span>
+                            </router-link>
+                        </li>
                     </ul>
                 </li>
                 <h3 class="menu-list-title">Apps</h3>
                 <li>
                     <a class="self-collapsable"><span class="menu-icon"><i class="fas fa-at"></i></span>Email<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
                     <ul class="self-collapse">
-                        <li><a href="inbox.html"><span class="name">Inbox</span> </a></li>
-                        <li><a href="compose.html"><span class="name">Compose</span> </a></li>
-                        <li><a href="sent.html"><span class="name">Sent</span> </a></li>
-                        <li><a href="draft.html"><span class="name">Draft</span> </a></li>
-                        <li><a href="trash.html"><span class="name">Trash</span> </a></li>
-                    </ul>
+                         <li>
+                            <router-link to="/inbox">
+                            <span class="name">Inbox</span>
+                           </router-link>
+
+                        </li>
+                        <li>
+                            <router-link to="/compose">
+                            <span class="name">Compose</span>
+                            </router-link>
+                        </li>
+                         <li>
+                            <router-link to="/sent">
+                            <span class="name">Sent</span>
+                           </router-link>
+
+                        </li>
+                        <li>
+                            <router-link to="/draft">
+                            <span class="name">Draft</span>
+                            </router-link>
+                        </li>
+                         <li>
+                            <router-link to="/trash">
+                            <span class="name">Trash</span>
+                           </router-link>
+
+                        </li>
+                    </ul> 
+                      
                 </li>
                 <li>
-                    <a href="todo.html"><span class="menu-icon"><i class="fas fa-check"></i></span>ToDo</a>
+                     <router-link to="/todo">
+                            <span class="name"><span class="menu-icon"><i class="fas fa-check"></i></span>ToDo</span>
+                     </router-link>
+                
                 </li>
                 <li>
-                    <a href="chat.html"><span class="menu-icon"><i class="fas fa-comment-dots"></i></span>Chat</a>
+                  <router-link to="/chat">  <span class="menu-icon"><i class="fas fa-comment-dots"></i></span>Chat  </router-link>
                 </li>
                 <li>
                     <a class="self-collapsable"><span class="menu-icon"><i class="fas fa-users"></i></span>Employee<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
                     <ul class="self-collapse">
-                        <li><a href="employee.html"><span class="name">Employee List</span> </a></li>
-                        <li><a href="employee-details.html"><span class="name">Employee Details</span> </a></li>
+                        <li><router-link to="/employeelist"><span class="name">Employee List</span></router-link> </li>
+                        <li><router-link to="/employeedetails"><span class="name">Employee Details</span></router-link></li>
                     </ul>
                 </li>
                 <li>
                     <a class="self-collapsable"><span class="menu-icon"><i class="fas fa-users"></i></span>Contact<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
                     <ul class="self-collapse">
-                        <li><a href="contact.html"><span class="name">Contact List</span> </a></li>
-                        <li><a href="contact-details.html"><span class="name">Contact Details</span> </a></li>
+                        <li><router-link to="/contactlist"><span class="name">Contact List</span></router-link> </li>
+                        <li><router-link to="/contactdetails"><span class="name">Contact Details</span></router-link></li>
+    
                     </ul>
                 </li>
                 <li>
-                    <a href="profile.html"><span class="menu-icon"><i class="fas fa-user-alt"></i></span>Profile</a>
+                    <router-link to="/profile"><span class="menu-icon"><i class="fas fa-user-alt"></i></span>Profile</router-link>
                 </li>
                 <li>    
                     <a class="self-collapsable"><span class="menu-icon"><i class="fas fa-poll-h"></i></span>Ecommerce<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
                     <ul class="self-collapse">
-                        <li><a href="product.html"><span class="name">Product</span> </a></li>
-                        <li><a href="product-page.html"><span class="name">Product Page</span> </a></li>
-                        <li><a href="product-list.html"><span class="name">Product List</span> </a></li>
-                        <li><a href="payment.html"><span class="name">Payment Details</span> </a></li>
-                        <li><a href="invoice.html"><span class="name">Invoice</span> </a></li>
+                        <li><router-link to="/product"><span class="name">Product</span> </router-link></li>
+                        <li><router-link to="/productpage"><span class="name">Product Page</span> </router-link></li>
+                        <li><router-link to="/productlist"><span class="name">Product List</span> </router-link></li>
+                        <li><router-link to="/payment"><span class="name">Payment Details</span> </router-link></li>
+                        <li><router-link to="/invoice"><span class="name">Invoice</span> </router-link></li>
                     </ul>
                 </li>
                 <li>
